@@ -43,7 +43,7 @@ func CriarUsuario(w http.ResponseWriter, r *http.Request) {
 
 }
 func BuscarUsuarios(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Buscar todos os usuários"))
+	w.Write([]byte("Buscar todos os usu"))
 	return
 }
 func BuscarUsuario(w http.ResponseWriter, r *http.Request) {
